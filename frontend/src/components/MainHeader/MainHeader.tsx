@@ -1,8 +1,8 @@
-import styles from './Header.module.css'
+import styles from './MainHeader.module.css'
 import searchIcon from '../../assets/icons/search.svg'
 import notifyIcon from '../../assets/icons/notify.svg'
 
-export const Header = (): JSX.Element => {
+export const MainHeader = (): JSX.Element => {
   return (
     <header className={styles.header}>
       <div className={styles.search}>

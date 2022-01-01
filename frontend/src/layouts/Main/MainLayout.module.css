@@ -1,0 +1,4 @@
+.main {
+  padding-top: var(--main-header-height);
+  padding-left: var(--main-sidebar-width);
+}

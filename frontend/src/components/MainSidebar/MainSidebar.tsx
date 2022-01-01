@@ -1,8 +1,8 @@
-import styles from './Sidebar.module.css'
+import styles from './MainSidebar.module.css'
 import logoIcon from '../../assets/icons/logo.svg'
 import { UserAvatar } from '../UserAvatar/UserAvatar'
 
-export const Sidebar = (): JSX.Element => {
+export const MainSidebar = (): JSX.Element => {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.header}>
