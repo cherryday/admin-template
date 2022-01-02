@@ -19,11 +19,14 @@
 
   --color-white: #fff;
 
+  --color-dark-200: #334D6E;
   --color-dark-300: #323C47;
   --color-dark-400: #192A3E;
 
   --color-grey-100: #F5F8FA;
   --color-grey-200: #EBEFF2;
+  --color-grey-300: #C2CFE0;
+  --color-grey-350: #C4C4C4;
   --color-grey-400: #90A0B7;
 
   --color-blue-400: #109CF1;
