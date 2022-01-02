@@ -1,0 +1,29 @@
+.link {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+/* .link:hover:not(.linkActive) {
+  background-color: var(--color-grey-400);
+} */
+
+.linkIcon {
+  margin-right: 16px;
+  color: var(--color-grey-300);
+}
+
+.linkText {
+  color: var(--color-dark-200);
+  font-size: var(--font-size-13);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.01em;
+}
+
+.linkActive .linkText {
+  color: var(--color-blue-400);
+}
+
+.linkActive .linkIcon {
+  color: var(--color-blue-400);
+}

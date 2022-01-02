@@ -1,6 +1,6 @@
 import styles from './MainHeader.module.css'
-import searchIcon from '../../assets/icons/search.svg'
-import notifyIcon from '../../assets/icons/notify.svg'
+import searchIcon from '../../../assets/icons/search.svg'
+import notifyIcon from '../../../assets/icons/notify.svg'
 
 export const MainHeader = (): JSX.Element => {
   return (

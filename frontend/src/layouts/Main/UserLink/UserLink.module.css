@@ -1,0 +1,28 @@
+.user {
+  padding: 0 24px;
+  font-weight: var(--font-weight-medium);
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.userAvatar {
+  flex: none;
+  margin-right: 16px;
+}
+
+.userName {
+  color: var(--color-dark-400);
+  font-size: var(--font-size-14);
+  margin-bottom: 2px;
+}
+
+.userEmail {
+  color: var(--color-grey-400);
+  font-size: var(--font-size-11);
+  letter-spacing: 0.01em;
+}
+
+.userActive .userName {
+  color: var(--color-blue-400);
+}
