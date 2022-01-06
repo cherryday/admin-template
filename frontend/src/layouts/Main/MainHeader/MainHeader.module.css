@@ -1,5 +1,5 @@
 .header {
-  height: 60px;
+  height: var(--main-header-height);
   padding-right: 36px;
   padding-left: 18px;
   border-bottom: 1px solid var(--color-grey-200);
@@ -12,6 +12,7 @@
   left: var(--main-sidebar-width);
   right: 0;
   z-index: 5;
+  transition: left .2s;
 }
 
 .search {

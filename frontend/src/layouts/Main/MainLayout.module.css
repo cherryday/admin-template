@@ -1,9 +1,18 @@
 .layout {
   min-height: 100vh;
-  background-color: var(--color-grey-250);
+  background-color: #F5F6F8;
 }
 
 .main {
   padding-top: var(--main-header-height);
   padding-left: var(--main-sidebar-width);
+  transition: padding .2s;
+}
+
+.mini {
+  padding-left: var(--main-sidebar-mini-width);
+}
+
+.miniHeader {
+  left: var(--main-sidebar-mini-width);
 }

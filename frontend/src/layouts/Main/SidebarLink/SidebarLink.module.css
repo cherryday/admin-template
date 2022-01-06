@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   padding: 0 24px;
+  transition: padding .2s;
 }
 
-/* .link:hover:not(.linkActive) {
-  background-color: var(--color-grey-400);
-} */
+.mini {
+  padding: 0 22px;
+}
 
 .linkIcon {
   margin-right: 16px;
@@ -18,6 +19,15 @@
   font-size: var(--font-size-13);
   font-weight: var(--font-weight-medium);
   letter-spacing: 0.01em;
+  transition: opacity .2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mini .linkText {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .linkActive .linkText {

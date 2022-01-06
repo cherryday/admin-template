@@ -4,11 +4,25 @@
   display: flex;
   align-items: center;
   margin-bottom: 39px;
+  transition: padding .2s;
+}
+
+.mini {
+  padding: 0 11px;
+}
+
+.userData {
+  transition: opacity .2s;
+  margin-left: 16px;
+}
+
+.mini .userData {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .userAvatar {
   flex: none;
-  margin-right: 16px;
 }
 
 .userName {
